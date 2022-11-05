@@ -15,7 +15,7 @@ $this->title = 'My Yii Application';
 <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Post', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Create Post', ['/blog/create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

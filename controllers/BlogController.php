@@ -39,7 +39,7 @@ class BlogController extends Controller
                 ],
             ],
 
-            ]
+            
         );
     }
 
